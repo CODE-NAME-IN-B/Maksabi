@@ -87,7 +87,7 @@ function IsVCRedistInstalled: Boolean;
 var
   ResultCode: Integer;
 begin
-  Result := RegKeyExistsValue(HKLM, 'SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x64', 'Installed');
+  Result := RegKeyExists(HKLM, 'SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x64');
 end;
 
 // Prepare to install VC++ if needed
