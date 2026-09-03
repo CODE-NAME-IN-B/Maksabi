@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Maksabi
+Name[ar]=مكسبي
+GenericName=Profit Tracker
+GenericName[ar]=متتبع الأرباح
+Comment=Track your business profits
+Comment[ar]=تتبع أرباح عملك
+Exec=/home/inb/Desktop/Projects/Maksabi/build/linux/x64/release/bundle/maksabi
+Icon=/home/inb/Desktop/Projects/Maksabi/assets/icon/logo.png
+Terminal=false
+Categories=Finance;Office;
+Keywords=profit;tracking;business;accounting;
+Keywords[ar]=أرباح;تتبع;أعمال;محاسبة;
